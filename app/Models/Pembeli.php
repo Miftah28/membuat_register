@@ -10,6 +10,7 @@ class Pembeli extends Model
     use HasFactory;
 
     protected $fillable = [
+        'user_id',
         'username',
         'alamat',
         'phone'
